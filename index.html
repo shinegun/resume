@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Aqil bin Mohd Nazri - Applied AI Engineer</title>
+<meta name="description" content="Muhammad Aqil bin Mohd Nazri. Computer Science graduate from Penn State. AI agent systems and full stack products in Python and TypeScript. Resume (PDF) and contact details.">
+<meta name="theme-color" content="#f5f6f6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1213" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<link rel="canonical" href="https://shinegun.github.io/resume/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Muhammad Aqil bin Mohd Nazri - Applied AI Engineer">
+<meta property="og:description" content="Computer Science graduate from Penn State. AI agent systems and full stack products in Python and TypeScript.">
+<meta property="og:url" content="https://shinegun.github.io/resume/">
+<meta property="og:image" content="https://shinegun.github.io/resume/resume-preview.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f5c46'/%3E%3Ctext x='32' y='43' font-family='system-ui,sans-serif' font-size='30' font-weight='600' fill='%23ffffff' text-anchor='middle'%3EMA%3C/text%3E%3C/svg%3E">
+<style>
+  /* Shape system: buttons + chips = pill, panels = 14px, preview frame = 10px. Nothing else rounds. */
+  :root {
+    --bg: #f5f6f6;
+    --surface: #ffffff;
+    --surface-tint: #eef3f1;
+    --ink: #12161a;
+    --muted: #5b6469;
+    --line: #dfe3e3;
+    --accent: #0f5c46;
+    --accent-ink: #ffffff;
+    --focus: #0f5c46;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1213;
+      --surface: #171b1c;
+      --surface-tint: #14201d;
+      --ink: #e9eced;
+      --muted: #9aa4a6;
+      --line: #262c2d;
+      --accent: #4ec9a0;
+      --accent-ink: #08201a;
+    }
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; border-radius: 4px; }
+  h1, h2, h3 { margin: 0; letter-spacing: -0.02em; line-height: 1.15; }
+  h1 { font-size: clamp(1.9rem, 5.2vw, 2.9rem); font-weight: 650; }
+  h2 { font-size: 0.82rem; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase; color: var(--muted); }
+  h3 { font-size: 1.03rem; font-weight: 620; }
+  p { margin: 0; }
+  .lede { font-size: 1.08rem; color: var(--muted); max-width: 46ch; }
+  .muted { color: var(--muted); }
+  .small { font-size: 0.87rem; }
+
+  /* Hero */
+  header.hero { padding: 48px 0 8px; }
+  .hero-grid { display: grid; gap: 28px 40px; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); align-items: end; }
+  .role { margin-top: 10px; font-size: 1rem; font-weight: 550; color: var(--ink); }
+  .role span { color: var(--muted); font-weight: 400; }
+  .lede { margin-top: 14px; }
+  .actions { margin-top: 22px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 9px;
+    padding: 13px 22px; border-radius: 999px;
+    font-size: 0.95rem; font-weight: 600; white-space: nowrap;
+    background: var(--accent); color: var(--accent-ink);
+    border: 1px solid var(--accent);
+    transition: transform .16s cubic-bezier(.16,1,.3,1), opacity .16s ease;
+  }
+  .btn:hover { text-decoration: none; opacity: .93; }
+  .btn:active { transform: translateY(1px); }
+  .btn.ghost { background: transparent; color: var(--ink); border-color: var(--line); }
+  .btn.ghost:hover { border-color: var(--muted); }
+  .contact { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+  .contact li { display: flex; gap: 10px; justify-content: space-between; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 0.9rem; }
+  .contact .k { color: var(--muted); }
+  .contact .v { text-align: right; word-break: break-word; }
+
+  /* Sections */
+  section { padding: 44px 0 4px; }
+  .sec-head { padding-bottom: 16px; }
+  .split { display: grid; gap: 26px 48px; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); align-items: start; }
+
+  /* Preview */
+  .frame { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px; }
+  .frame img { display: block; width: 100%; height: auto; border-radius: 4px; }
+  .dl-note { margin-top: 14px; }
+  .dl-note + .dl-note { margin-top: 8px; }
+
+  /* Experience rows */
+  .rows { border-top: 1px solid var(--line); }
+  .row { display: grid; gap: 4px 28px; grid-template-columns: minmax(0, 1fr) minmax(0, 2.1fr); padding: 20px 0; border-bottom: 1px solid var(--line); }
+  .row .when { font-size: 0.87rem; color: var(--muted); }
+  .row ul { margin: 8px 0 0; padding-left: 18px; }
+  .row li { margin-bottom: 4px; font-size: 0.95rem; }
+  .row li:last-child { margin-bottom: 0; }
+
+  /* Projects */
+  .grid-2 { display: grid; gap: 16px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 20px; }
+  .panel.feature { background: var(--surface-tint); border-color: transparent; }
+  .panel .role-line { margin-top: 4px; color: var(--muted); font-size: 0.87rem; }
+  .panel ul { margin: 12px 0 0; padding-left: 18px; }
+  .panel li { font-size: 0.95rem; margin-bottom: 4px; }
+  .tech { margin-top: 14px; font-size: 0.82rem; color: var(--muted); }
+
+  /* Skills */
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { border: 1px solid var(--line); border-radius: 999px; padding: 5px 13px; font-size: 0.86rem; color: var(--ink); background: var(--surface); }
+  .skill-group + .skill-group { margin-top: 22px; }
+  .skill-group .label { font-size: 0.87rem; color: var(--muted); margin-bottom: 10px; }
+
+  /* Education */
+  .edu { display: grid; gap: 4px 28px; grid-template-columns: minmax(0, 1fr) minmax(0, 2.1fr); padding: 20px 0; }
+  .edu .when { font-size: 0.87rem; color: var(--muted); }
+
+  footer { padding: 40px 0 56px; border-top: 1px solid var(--line); margin-top: 40px; }
+  footer .fin { display: flex; flex-wrap: wrap; gap: 10px 22px; font-size: 0.9rem; align-items: baseline; }
+
+  @media (max-width: 760px) {
+    .hero-grid, .split, .row, .edu, .grid-2 { grid-template-columns: minmax(0, 1fr); }
+    header.hero { padding-top: 34px; }
+    section { padding-top: 36px; }
+    .row, .edu { gap: 2px; }
+    .row .when { order: 2; }
+    .contact li { flex-direction: column; gap: 2px; }
+    .contact .v { text-align: left; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="hero-grid">
+      <div>
+        <h1>Muhammad Aqil bin Mohd Nazri</h1>
+        <p class="role">Applied AI Engineer <span>· Kedah, Malaysia</span></p>
+        <p class="lede">Computer Science graduate from Penn State. I build AI agent systems and full stack products in Python and TypeScript.</p>
+        <div class="actions">
+          <a class="btn" href="Muhammad-Aqil-Nazri-Resume.pdf" download>Download resume (PDF)</a>
+          <a class="btn ghost" href="mailto:aqilnazri9@gmail.com">Email me</a>
+        </div>
+      </div>
+      <ul class="contact">
+        <li><span class="k">Email</span><span class="v"><a href="mailto:aqilnazri9@gmail.com">aqilnazri9@gmail.com</a></span></li>
+        <li><span class="k">Phone</span><span class="v"><a href="tel:+60123783895">+60 12-378 3895</a></span></li>
+        <li><span class="k">LinkedIn</span><span class="v"><a href="https://www.linkedin.com/in/aqilnazri/">in/aqilnazri</a></span></li>
+        <li><span class="k">GitHub</span><span class="v"><a href="https://github.com/shinegun">github.com/shinegun</a></span></li>
+        <li><span class="k">Company</span><span class="v"><a href="https://shariahtrading.my">shariahtrading.my</a></span></li>
+      </ul>
+    </div>
+  </header>
+
+  <section>
+    <div class="split">
+      <div class="sec-head">
+        <h2>The one-pager</h2>
+        <p class="lede" style="margin-top:14px">Everything below is on the PDF. Open it, or scan and send it straight on to your hiring team.</p>
+        <p class="small muted dl-note">One page, A4, 37 KB. Opens in any phone browser.</p>
+        <p class="small muted dl-note"><a href="Muhammad-Aqil-Nazri-Resume.pdf">Open the PDF in this tab</a></p>
+      </div>
+      <div class="frame">
+        <img src="resume-preview.jpg" width="1192" height="1686" alt="Page one of Muhammad Aqil's resume: summary, skills, experience at Shariah Algo Trading, Penn State Advanced Vehicle Team and Penn State, education, projects.">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Experience</h2></div>
+    <div class="rows">
+      <div class="row">
+        <div>
+          <h3>Co-founder</h3>
+          <p class="when">Shariah Algo Trading</p>
+          <p class="when">Jun 2026 - Present</p>
+        </div>
+        <div>
+          <ul>
+            <li>Co-developed a Shariah-compliant algorithmic trading platform in Python, with data processing pipelines and low-latency execution logic.</li>
+            <li>Employed AI-assisted development workflows and LLMs to prototype features, optimize performance and speed up web deployment.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <h3>Perception Team Member</h3>
+          <p class="when">Penn State Advanced Vehicle Team</p>
+          <p class="when">Aug 2025 - May 2026</p>
+        </div>
+        <div>
+          <ul>
+            <li>Built analytical scoring systems that validated CAN message integrity for reliable, low-latency data flow to the autonomy stack.</li>
+            <li>Programmed radar-based perception modules in ROS/ROS2 and deployed them to the vehicle's onboard Linux computer.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div>
+          <h3>Student Manager</h3>
+          <p class="when">The Pennsylvania State University</p>
+          <p class="when">Sep 2022 - May 2026</p>
+        </div>
+        <div>
+          <ul>
+            <li>Supervised front-of-house operations for a facility serving over 800 customers daily with 100% compliance with food safety protocols.</li>
+            <li>Named Employee of the Month twice with a raise each time, recognized among a 100-200 person facility staff.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Projects</h2></div>
+    <div class="grid-2">
+      <div class="panel feature" style="grid-column: 1 / -1">
+        <h3>Nightshift</h3>
+        <p class="role-line">Creator (personal project) · <a href="https://track.safastack.com">track.safastack.com</a></p>
+        <ul>
+          <li>Built a self-hosted AI agent orchestration platform with a bounded tool-calling loop, step budgets and 21 typed tools.</li>
+          <li>Developed full stack solo across Node/Hono with SSE, React and SQLite, plus per-call cost tracking and a daily spend cap.</li>
+        </ul>
+        <p class="tech">TypeScript · Node.js · React · Hono · SQLite · Server-Sent Events · Playwright · Function calling · Vercel · systemd · Cloudflare Tunnel</p>
+      </div>
+      <div class="panel">
+        <h3>PolitikKu</h3>
+        <p class="role-line">Contributor, 52 commits · <a href="https://politikku.my">politikku.my</a></p>
+        <ul>
+          <li>Configured Worker secrets, R2 storage and a read-only database login for the site's Cloudflare backend.</li>
+          <li>Restored the failed daily run by replacing a rejected database secret in GitHub Actions.</li>
+        </ul>
+        <p class="tech">Python · JavaScript · GitHub Actions · Cloudflare Workers · D1 · R2 · ILMU (YTL AI Labs)</p>
+      </div>
+      <div class="panel">
+        <h3>Social Nutrition Architecture</h3>
+        <p class="role-line">Co-developer (HackPSU)</p>
+        <ul>
+          <li>Co-developed an AI-driven browser extension that runs machine learning models to detect and flag AI-generated misinformation across social media feeds.</li>
+          <li>Optimized system and task prompts within tight context windows to evaluate feed data integrity and output real-time, user-facing nutrition labels.</li>
+        </ul>
+        <p class="tech">Machine learning · Browser extension · Prompt engineering</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Skills</h2></div>
+    <div class="split">
+      <div>
+        <div class="skill-group">
+          <p class="label">Languages</p>
+          <div class="chips">
+            <span class="chip">Python</span><span class="chip">TypeScript</span><span class="chip">JavaScript</span><span class="chip">C++</span><span class="chip">C</span><span class="chip">SQL</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="label">AI and development</p>
+          <div class="chips">
+            <span class="chip">Agent orchestration</span><span class="chip">Function calling</span><span class="chip">Prompt engineering</span><span class="chip">LLM APIs</span><span class="chip">Git</span><span class="chip">Linux</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="skill-group">
+          <p class="label">Backend and APIs</p>
+          <div class="chips">
+            <span class="chip">Node.js</span><span class="chip">FastAPI</span><span class="chip">REST APIs</span><span class="chip">PostgreSQL</span><span class="chip">Supabase</span><span class="chip">Docker</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <p class="label">Education and certifications</p>
+          <p class="small" style="margin-bottom:10px">The Pennsylvania State University, College of Engineering. B.S. Computer Science, May 2026. Minor in Cybersecurity Computational Foundations.</p>
+          <div class="chips">
+            <span class="chip">Young Talent Program (YTP) Scholarship, MARA, July 2021</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="fin">
+      <a href="mailto:aqilnazri9@gmail.com">aqilnazri9@gmail.com</a>
+      <a href="tel:+60123783895">+60 12-378 3895</a>
+      <a href="https://www.linkedin.com/in/aqilnazri/">LinkedIn</a>
+      <a href="https://github.com/shinegun">GitHub</a>
+      <a href="Muhammad-Aqil-Nazri-Resume.pdf">Resume (PDF)</a>
+    </div>
+  </footer>
+
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Muhammad Aqil bin Mohd Nazri",
+  "jobTitle": "Applied AI Engineer",
+  "email": "mailto:aqilnazri9@gmail.com",
+  "telephone": "+60123783895",
+  "url": "https://shinegun.github.io/resume/",
+  "address": { "@type": "PostalAddress", "addressRegion": "Kedah", "addressCountry": "MY" },
+  "alumniOf": "The Pennsylvania State University",
+  "sameAs": ["https://www.linkedin.com/in/aqilnazri/", "https://github.com/shinegun", "https://shariahtrading.my"]
+}
+</script>
+</body>
+</html>
